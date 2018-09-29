@@ -9,9 +9,9 @@ export default class App extends Component {
     return (
       <Router>
         <Scene key="root" >
-        <Scene key='Principal' component={Principal} initial title='Cara ou coroa' />
-        <Scene key='Sobre' component={Sobre} />
-        <Scene key='OutrosJogos'component={OutrosJogos} />
+        <Scene key='Principal' component={Principal} initial title='Cara ou coroa' hideNavBar />
+        <Scene key='Sobre' component={Sobre} title='Sobre o jogo!' />
+        <Scene key='OutrosJogos'component={OutrosJogos} title='Outros jogos' />
         </Scene>
       </Router>
     );
