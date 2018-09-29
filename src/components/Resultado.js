@@ -32,10 +32,9 @@ export default class Resultado extends Component {
             return (
                 <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#61BD8C', }}>
                   <Image source={cara} />
-                  </View>
+                </View>
             );
-        } else {
-            return (
+        } return (
                 <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#61BD8C', }}>
                  <Image source={coroa} />
               </View>
@@ -43,5 +42,3 @@ export default class Resultado extends Component {
         }
         
     }
-  
-  }
