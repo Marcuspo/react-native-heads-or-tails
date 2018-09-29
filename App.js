@@ -8,9 +8,11 @@ export default class App extends Component {
   render() {
     return (
       <Router>
-        <Scene key='principal' component={Principal} />
-        <Scene key='sobre' component={Sobre} />
-        <Scene key='outros' component={OutrosJogos} />
+        <Scene key="root" >
+        <Scene key='Principal' component={Principal} initial title='Cara ou coroa' />
+        <Scene key='Sobre' component={Sobre} />
+        <Scene key='OutrosJogos'component={OutrosJogos} />
+        </Scene>
       </Router>
     );
   }
