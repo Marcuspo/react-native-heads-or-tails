@@ -1,3 +1,5 @@
 ## Criação de aplicativo para disputar cara ou coroa.
 
-<img src="./src/imgs/CAPA.png" width="40%">.
+<p align="center">
+  <img width=100% src="./src/imgs/CAPA.png">
+</p>
