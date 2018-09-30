@@ -25,7 +25,7 @@ export default class Resultado extends Component {
             caraOuCoroa = 'coroa';
         }
     
-        this.setState({resultado: caraOuCoroa });
+        this.setState({ resultado: caraOuCoroa });
     }
 
     render() {
